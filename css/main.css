@@ -21,6 +21,7 @@ body {
     max-width: 1080px;
     margin: 0 auto 50px auto;
     background-color: lightgray;
+    border: black 2px solid;
 }
 .logo-row {
     margin: 0 auto;
@@ -33,6 +34,11 @@ body {
     width: 250px;
     float: left;
     margin: 50px auto 50px auto;
+    border: black 1px solid;
+}
+
+.card img {
+    border-bottom: black 1px solid;
 }
 
 .card-title, .card-text {
@@ -53,10 +59,9 @@ body {
     float:left;
 }
 
-.build .build-text {
+.build-text {
     display: inline-block;
     margin: 60px 0 50px 0;
-    max-width: 600px;
 }
 
 .carousel {
