@@ -7,19 +7,19 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    max-width: 1080px;
     background-color: aliceblue;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 99%;
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     background-color: lightgray;
 }
 .logo-row {
@@ -50,15 +50,13 @@ body {
 .build img {
     margin: 50px 100px 50px 0;
     border: black solid 1px;
+    float:left;
 }
 
 .build .build-text {
     display: inline-block;
-
-}
-
-.build-2:hover {
-    background: url("images/dev2.png") no-repeat;
+    margin: 60px 0 50px 0;
+    max-width: 600px;
 }
 
 .carousel {
@@ -69,10 +67,56 @@ body {
     color: black;
 }
 
-.video {
-    margin: 25px 0 25px 0;
+.video iframe {
+    margin: 25px 0 25px 15px;
+    width: 1024px;
+}
+
+.video-text p {
+    margin: 25px 0 25px 15px;
 }
 
 header img {
     margin: 0 0 10px 0;
+}
+
+.header-text {
+    margin:25px auto 0;
+    border: black 2px solid;
+    padding-right: 1px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    padding: 1px 2px 1px 1px;
+}
+
+.header-text-2 h2 {
+    margin: 25px auto 25px auto;
+    text-decoration-line: underline;
+}
+
+.header-text-2 h3 {
+    text-decoration-line: underline;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.build img {
+    transition: transform .2s;
+}
+
+.build img:hover {
+    transform: scale(1.25);
+}
+
+.card-img-top {
+    transition: transform .2s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
 }
