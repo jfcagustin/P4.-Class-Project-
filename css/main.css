@@ -44,7 +44,7 @@ body {
 }
 
 .nav-item {
-    margin: 0 65px;
+    margin: 0 4.0625em;
 }
 
 .build img {
@@ -120,4 +120,14 @@ form {
 
 .card-img-top:hover {
     transform: scale(1.05);
+}
+
+.tip #img-1 {
+    float:right;
+    margin-left: 15px
+}
+
+.tip #img-2 {
+    float:left;
+    margin-right: 15px;
 }
