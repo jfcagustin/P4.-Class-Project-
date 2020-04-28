@@ -73,7 +73,7 @@ body {
 }
 
 .video iframe {
-    margin: 25px 0 25px 15px;
+    margin: 25px 0 25px 0;
     width: 1024px;
 }
 
